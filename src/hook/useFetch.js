@@ -19,7 +19,6 @@ const useFetch = () => {
   }, []);
 
   if (!postData) {
-    alert("mal");
     return [data, backupData];
   } else {
     return [postData, backupData];
